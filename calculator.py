@@ -3,6 +3,10 @@ def calculate(num1, num2, operator):
         return num1 + num2
     elif operator == '-':
         return num1 - num2
+    elif operator == '*':
+        return num1 * num2
+    elif operator == '/':
+        return num1 / num2
     else:
         return "지원하지 않는 연산자입니다."
 
